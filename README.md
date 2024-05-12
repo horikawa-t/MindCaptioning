@@ -6,5 +6,7 @@ This repository contains the data and code for reproducing results in our paper:
 ## Stimuli
 - We used short video clips collected by Cowen and Keltner (2017).
 - The videos can be requested from the following URL managed by the authors: https://goo.gl/forms/XErJw9sBeyuOyp5Q2.
+## Code
+- Matlab and Python scripts for reproducing main results of our study are available from code/.
 ## Note
 - If you encounter any issues accessing the data or code, please contact us (horikawa.t@gmail.com).
