@@ -15,7 +15,7 @@ data/
 │   └── ...
 └── spaceDefine/
     ├── spaceDefine_S1.nii
-    ├── spaceDefine_S2.mat
+    ├── spaceDefine_S2.nii
     └── ...　       
 ```
 ### features
@@ -25,21 +25,16 @@ data/
 feature/
 ├── deberta-large/
 │   ├── caption/
-│   │   ├── layer01.mat (caption-wise features; feat:[nVideos x 20 captions] x nUnits)
-│   │   └── ...
+│   │   └── (layer01.mat/.../layer24.mat) (caption-wise features; feat:[nVideos x 20 captions] x nUnits)
 │   ├── video/
-│   │   ├── layer01.mat (video-wise features; feat:nVideos x nUnits)
-│   │   └── ...
+│   │   └── (layer01.mat/.../layer24.mat) (video-wise features; feat:nVideos x nUnits)
 │   └── norm_param/
-│       ├── layer01.mat (mu, sd; 1 x nUnits)
-│       └── ...
+│       └── (layer01.mat/.../layer24.mat)  (mu, sd; 1 x nUnits)
 └── timesformer/
     ├── video/
-    │   ├── layer01.mat (video-wise features; feat:nVideo x nUnit)
-    │   └── ...
+    │   └── (layer01.mat/.../layer12.mat) (video-wise features; feat:nVideos x nUnits)
     └── norm_param/
-        ├── layer01.mat (mu, sd; 1 x nUnit)
-        └── ...
+        └── (layer01.mat/.../layer12.mat)  (mu, sd; 1 x nUnits)
 ```
 ### Note
 -
