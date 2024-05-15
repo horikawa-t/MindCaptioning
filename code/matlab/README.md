@@ -2,7 +2,7 @@
 - We implemented the decoding and encoding analyses using MATLAB.
 - Preprocessed fMRI data and features are need to be put in specified directory MindCaptioning/data/{fmri/feature}.
 
-## Analysis
+### Analysis
 - Run the following script in MATLAB.
 ```plaintext
 >> mcap_encoding_analysis
