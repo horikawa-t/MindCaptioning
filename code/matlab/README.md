@@ -9,7 +9,7 @@
 >> mcap_decoding_analysis
 ```
 - Each of the encoding and decoding analysis can be performed with multiple cpus in parallel.
-- But, the encoding results are required for the decoding analysis (for voxel selection).
+- The encoding results are required for the decoding analysis (for voxel selection).
 - We strongly recomend to use multiple cpus to run the whole analysis, as the encoding and decoding analysis will take about 1 or 20 weeks, respectivly, using a single cpu to complete all the computations.
  
 - The all results will be saved in MindCaptioning/res/ directory.
