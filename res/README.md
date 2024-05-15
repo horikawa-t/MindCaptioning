@@ -6,30 +6,14 @@
 ```plaintext
 res/
 ├── decoding/
-│   ├── trainPerception/
-│   │   └── deberta-large/
-│   │   │   ├── S1/
-│   │   │   │   ├── layer01.mat
-│   │   │   │   └── ...
-│   │   │   ├── S2/
-│   │   │   └── ...
-│   │   └── ...
-│   ├── testPerception/
-│   │   └── deberta-large/
-│   │   │   ├── S1/
-│   │   │   │   ├── layer01.mat
-│   │   │   │   └── ...
-│   │   │   ├── S2/
-│   │   │   └── ...
-│   │   └── ...
-│   └── testImagery/
+│   └── (trainPerception/testPerception/testImagery)/
 │       └── deberta-large/
-│       │   ├── S1/
-│       │   │   ├── layer01.mat
-│       │   │   └── ...
-│       │   ├── S2/
-│       │   └── ...
-│       └── ...
+│           └──(S1/.../S6)/
+│               └──(WB/WBnoVis/WBnoSem/WBnoLang/Lang)/ 
+│                   └──(layer01/.../layer24).mat
 └── encoding/
-    ├──(same with the decoding directory)
+    └── (trainPerception/testPerception/testImagery)/
+        └── (deberta-large/timesformer)/
+            └──(S1/.../S6)/
+               └──(layer01/.../layer24).mat
 ```
