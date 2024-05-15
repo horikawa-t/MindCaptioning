@@ -8,9 +8,9 @@
 ```plaintext
 data/
 ├── preprocessed/
-│   ├── trainPerception_S1.mat
-│   ├── testPerception_S1.mat
-│   ├── trainImagery_S1.mat
+│   ├── trainPerception_S1.mat (training data; 2180 samples x nVoxels)
+│   ├── testPerception_S1.mat (test perception data; [72 samples x 5 repetitions] x nVoxels)
+│   ├── trainImagery_S1.mat (test perception data; [72 samples x 5 repetitions] x nVoxels)
 │   ├── trainPerception_S2.mat
 │   └── ...
 └── spaceDefine/
@@ -25,13 +25,13 @@ data/
 feature/
 ├── deberta-large/
 │   ├── caption/
-│   │   ├── layer01.mat (caption-wise features: [nVideo x 20 captions] x nUnit)
+│   │   ├── layer01.mat (caption-wise features: [nVideos x 20 captions] x nUnits)
 │   │   └── ...
 │   ├── video/
-│   │   ├── layer01.mat (video-wise features: nVideo x nUnit)
+│   │   ├── layer01.mat (video-wise features: nVideos x nUnits)
 │   │   └── ...
 │   └── norm_param/
-│       ├── layer01.mat (mu, sd; 1 x nUnit)
+│       ├── layer01.mat (mu, sd; 1 x nUnits)
 │       └── ...
 └── timesformer/
     ├── video/
