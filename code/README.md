@@ -30,7 +30,7 @@
 ### Setup
 - Run the following command to setup the conda enviroment (named mcap).
 ```plaintext
-For Linux (we tested Ubuntu 20.04.6 or 22.04.1 with nvidia GPU)
+For Linux (we tested Ubuntu 20.04.6 and 22.04.1 with nvidia GPU)
 >> conda env create -f environment.yml
 >> source activate mcap
 >> pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu117
