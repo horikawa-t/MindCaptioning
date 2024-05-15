@@ -31,16 +31,14 @@
 - Run the following command to setup the conda enviroment (named mcap).
 ```plaintext
 For Linux (we tested Ubuntu 20.04.6 and 22.04.1 with nvidia GPU)
->> conda env create -f environment.yml
+>> conda env create -f env_linux.yml
 >> source activate mcap
 >> pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu117
 
 For Mac (we tested macOS Monterey version 1.12.1)
->> CONDA_SUBDIR=osx-64 conda env create -f environment.yml
+>> CONDA_SUBDIR=osx-64 conda env create -f env_mac.yml
 >> source activate mcap
->> pip install torch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0
 ```
-
 
 ### Analysis
 - Run the following script in the environment.
