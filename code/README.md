@@ -23,4 +23,15 @@
  (<a href="https://figshare.com/ndownloader/files/46338292">res_featdec.zip</a>)
 
 ## Text generation analysis
+- We implemented the text generation analysis using Python.
+- Results of feature decoding are required for generating descriptions from the brain.
+- You can also test our method for arbitrary word sequences (e.g., "Five apples are on the table."). See mcap_demo.ipynb. 
+
+### Setup
 - 
+
+### Analysis
+- Run the following script in the environment.
+```plaintext
+>> python mcap_analysis.py
+```
