@@ -18,7 +18,7 @@ data/
     ├── spaceDefine_S2.nii
     └── ...　       
 ```
-### features
+### feature
 - Feature data contain semantic features of deberta-large (for each video and caption) and visual features of timesformer (for each video).
 - This directory also contains normalization parameters (mu, std) for all layers.
 ```plaintext
