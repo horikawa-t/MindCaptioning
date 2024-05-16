@@ -1,7 +1,7 @@
 ## Preprocessed fMRI data, features, and captions
 - Preprcessed fMRI data and features should be placed in this directory.
 - They are available from figshare (<a href="https://figshare.com/ndownloader/files/46336531">fmri.zip</a>, <a href="https://figshare.com/ndownloader/files/46336429">feature.zip</a>).
-- caption_data.csv: video captions for all videos annotated by humans
+- Video captions: [./caption/caption_ck20.csv](./caption/caption_ck20.csv)
 
 ### fMRI data
 - fMRI data contain preprocessed fMRI data and spaceDefine files for all subjects.
