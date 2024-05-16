@@ -3,7 +3,7 @@ This repository contains the data and code for reproducing results in our paper:
 ## Dataset
 - Raw fMRI data: OpenNeuro (To Be Announced)
 - Preprocessed fMRI data and semantic features: <a href="https://doi.org/10.6084/m9.figshare.25808179">figshare</a>
-- Video captions: [./data/caption_data.csv](./data/caption_data.csv)
+- Video captions: [./data/caption/caption_ck20.csv](./data/caption/caption_ck20.csv)
 ## Stimuli
 - We used short video clips collected by Cowen and Keltner (2017).
 - The videos can be requested from the following URL managed by the authors: https://goo.gl/forms/XErJw9sBeyuOyp5Q2.
