@@ -1,0 +1,417 @@
+# packages in environment at /home/kujaku/libraries/python/anaconda2-2018.12/envs/mcap_demo:
+#
+# Name                    Version                   Build  Channel
+_anaconda_depends         2022.10                  py37_2  
+_libgcc_mutex             0.1                        main  
+_openmp_mutex             5.1                       1_gnu  
+absl-py                   1.3.0            py37h06a4308_0    anaconda
+aiohttp                   3.8.6                    pypi_0    pypi
+aiosignal                 1.3.1                    pypi_0    pypi
+alabaster                 0.7.12                   py37_0  
+anaconda                  custom                   py37_1  
+anyio                     3.5.0            py37h06a4308_0  
+appdirs                   1.4.4              pyhd3eb1b0_0  
+argon2-cffi               21.3.0             pyhd3eb1b0_0  
+argon2-cffi-bindings      21.2.0           py37h7f8727e_0  
+arrow                     1.2.3            py37h06a4308_1  
+astroid                   2.14.2           py37h06a4308_0  
+astropy                   4.3.1            py37h09021b7_0  
+async-timeout             4.0.3                    pypi_0    pypi
+asynctest                 0.13.0                   pypi_0    pypi
+atomicwrites              1.4.0                      py_0  
+attrs                     22.1.0           py37h06a4308_0  
+automat                   20.2.0                     py_0  
+autopep8                  1.6.0              pyhd3eb1b0_1  
+babel                     2.11.0           py37h06a4308_0  
+backcall                  0.2.0              pyhd3eb1b0_0  
+backports                 1.1                pyhd3eb1b0_0  
+bcrypt                    3.2.0            py37h5eee18b_1  
+beautifulsoup4            4.11.1           py37h06a4308_0  
+bert-score                0.3.13                   pypi_0    pypi
+binaryornot               0.4.4              pyhd3eb1b0_1  
+bitarray                  2.5.1            py37h5eee18b_0  
+bkcharts                  0.2              py37h06a4308_1  
+black                     22.6.0           py37h06a4308_0  
+blas                      1.0                         mkl  
+bleach                    4.1.0              pyhd3eb1b0_0  
+blis                      0.4.1                    pypi_0    pypi
+blosc                     1.21.3               h6a678d5_0  
+bokeh                     2.4.3            py37h06a4308_0  
+boto3                     1.24.28          py37h06a4308_0  
+botocore                  1.27.59          py37h06a4308_0  
+bottleneck                1.3.5            py37h7deecbd_0  
+brotli                    1.0.9                h5eee18b_8  
+brotli-bin                1.0.9                h5eee18b_8  
+brotlipy                  0.7.0           py37h27cfd23_1003  
+bzip2                     1.0.8                h5eee18b_6  
+ca-certificates           2023.08.22           h06a4308_0    anaconda
+catalogue                 1.0.2                    pypi_0    pypi
+certifi                   2022.12.7        py37h06a4308_0  
+cffi                      1.15.0           py37h7f8727e_0  
+chardet                   4.0.0           py37h06a4308_1003  
+charset-normalizer        2.0.4              pyhd3eb1b0_0  
+click                     8.0.4            py37h06a4308_0  
+cloudpickle               2.0.0              pyhd3eb1b0_0  
+clyent                    1.2.2                    py37_1  
+colorama                  0.4.6            py37h06a4308_0  
+colorcet                  3.0.1            py37h06a4308_0  
+constantly                15.1.0           py37h28b3542_0  
+cookiecutter              1.7.3              pyhd3eb1b0_0  
+cryptography              39.0.1           py37h9ce1e76_0  
+cssselect                 1.1.0              pyhd3eb1b0_0  
+curl                      7.61.0               h84994c4_0  
+cycler                    0.11.0             pyhd3eb1b0_0  
+cymem                     2.0.8                    pypi_0    pypi
+cython                    0.29.33          py37h6a678d5_0  
+cytoolz                   0.12.0           py37h5eee18b_0  
+daal4py                   2021.6.0         py37h79cecc1_1  
+dal                       2021.6.0           hdb19cb5_916  
+dask                      2021.10.0          pyhd3eb1b0_0  
+dask-core                 2021.10.0          pyhd3eb1b0_0  
+datasets                  2.13.2                   pypi_0    pypi
+datashader                0.14.4           py37h06a4308_0  
+datashape                 0.5.4            py37h06a4308_1  
+dbus                      1.13.18              hb2f20db_0  
+debugpy                   1.5.1            py37h295c915_0  
+decorator                 5.1.1              pyhd3eb1b0_0  
+defusedxml                0.7.1              pyhd3eb1b0_0  
+diff-match-patch          20200713           pyhd3eb1b0_0  
+dill                      0.3.6            py37h06a4308_0  
+distributed               2021.10.0        py37h06a4308_0  
+docutils                  0.18.1           py37h06a4308_3  
+en-core-web-sm            2.2.5                    pypi_0    pypi
+entrypoints               0.4              py37h06a4308_0  
+et_xmlfile                1.1.0            py37h06a4308_0  
+evaluate                  0.4.1                    pypi_0    pypi
+expat                     2.6.2                h6a678d5_0  
+filelock                  3.9.0            py37h06a4308_0  
+flake8                    4.0.1              pyhd3eb1b0_1  
+flask                     2.2.2            py37h06a4308_0  
+flit-core                 3.6.0              pyhd3eb1b0_0  
+fontconfig                2.14.1               h52c9d5c_1  
+fonttools                 4.25.0             pyhd3eb1b0_0  
+freetype                  2.12.1               h4a9f257_0  
+frozenlist                1.3.3                    pypi_0    pypi
+fsspec                    2022.11.0        py37h06a4308_0  
+gensim                    4.1.2            py37h295c915_0  
+giflib                    5.2.1                h5eee18b_3  
+glib                      2.63.1               h5a9c865_0  
+gmp                       6.2.1                h295c915_3  
+gmpy2                     2.1.2            py37heeb90bb_0  
+greenlet                  2.0.1            py37h6a678d5_0  
+gst-plugins-base          1.14.0               hbbd80ab_1  
+gstreamer                 1.14.0               hb453b48_1  
+h5py                      3.7.0            py37h737f45e_0  
+hdf5                      1.10.6               hb1b8bf9_0  
+heapdict                  1.0.1              pyhd3eb1b0_0  
+holoviews                 1.15.4           py37h06a4308_0  
+huggingface-hub           0.16.4                   pypi_0    pypi
+hvplot                    0.8.2            py37h06a4308_0  
+hyperlink                 21.0.0             pyhd3eb1b0_0  
+icu                       58.2                 he6710b0_3  
+idna                      3.4              py37h06a4308_0  
+imageio                   2.19.3           py37h06a4308_0  
+imagesize                 1.4.1            py37h06a4308_0  
+importlib-metadata        4.11.3           py37h06a4308_0  
+importlib_metadata        4.11.3               hd3eb1b0_0  
+importlib_resources       5.2.0              pyhd3eb1b0_1  
+incremental               22.10.0            pyhd3eb1b0_0  
+inflection                0.5.1            py37h06a4308_0  
+iniconfig                 1.1.1              pyhd3eb1b0_0  
+intake                    0.6.6            py37h06a4308_0  
+intel-openmp              2021.4.0          h06a4308_3561  
+intervaltree              3.1.0              pyhd3eb1b0_0  
+ipykernel                 6.15.2           py37h06a4308_0  
+ipython                   7.31.1           py37h06a4308_1  
+ipython_genutils          0.2.0              pyhd3eb1b0_1  
+ipywidgets                7.6.5              pyhd3eb1b0_2  
+isort                     5.9.3              pyhd3eb1b0_0  
+itemadapter               0.3.0              pyhd3eb1b0_0  
+itemloaders               1.0.4              pyhd3eb1b0_1  
+itsdangerous              2.0.1              pyhd3eb1b0_0  
+jdcal                     1.4.1              pyhd3eb1b0_0  
+jedi                      0.18.1           py37h06a4308_1  
+jeepney                   0.7.1              pyhd3eb1b0_0  
+jellyfish                 0.9.0            py37h7f8727e_0  
+jinja2                    3.1.2            py37h06a4308_0  
+jinja2-time               0.2.0              pyhd3eb1b0_3  
+jmespath                  0.10.0             pyhd3eb1b0_0  
+joblib                    1.1.1            py37h06a4308_0  
+jpeg                      9e                   h5eee18b_1  
+jq                        1.6               h27cfd23_1000  
+json5                     0.9.6              pyhd3eb1b0_0  
+jsonschema                4.17.3           py37h06a4308_0  
+jupyter                   1.0.0            py37h06a4308_8  
+jupyter_client            7.4.9            py37h06a4308_0  
+jupyter_console           6.4.4            py37h06a4308_0  
+jupyter_core              4.11.2           py37h06a4308_0  
+jupyter_server            1.23.4           py37h06a4308_0  
+jupyterlab                3.5.3            py37h06a4308_0  
+jupyterlab_pygments       0.1.2                      py_0  
+jupyterlab_server         2.19.0           py37h06a4308_0  
+jupyterlab_widgets        1.0.0              pyhd3eb1b0_1  
+keyring                   23.4.0           py37h06a4308_0  
+kiwisolver                1.4.4            py37h6a678d5_0  
+lazy-object-proxy         1.6.0            py37h27cfd23_0  
+lcms2                     2.12                 h3be6417_0  
+lerc                      3.0                  h295c915_0  
+libbrotlicommon           1.0.9                h5eee18b_8  
+libbrotlidec              1.0.9                h5eee18b_8  
+libbrotlienc              1.0.9                h5eee18b_8  
+libcurl                   7.61.0               h1ad7b7a_0  
+libdeflate                1.17                 h5eee18b_1  
+libedit                   3.1.20230828         h5eee18b_0  
+libffi                    3.2.1             hf484d3e_1007  
+libgcc-ng                 11.2.0               h1234567_1  
+libgfortran-ng            7.5.0               ha8ba4b0_17  
+libgfortran4              7.5.0               ha8ba4b0_17  
+libgomp                   11.2.0               h1234567_1  
+libllvm11                 11.1.0               h9e868ea_6  
+libpng                    1.6.39               h5eee18b_0  
+libsodium                 1.0.18               h7b6447c_0  
+libspatialindex           1.9.3                h2531618_0  
+libssh2                   1.8.0                h9cfc8f7_4  
+libstdcxx-ng              11.2.0               h1234567_1  
+libtiff                   4.5.1                h6a678d5_0  
+libuuid                   1.41.5               h5eee18b_0  
+libwebp                   1.2.4                h11a3e52_1  
+libwebp-base              1.2.4                h5eee18b_1  
+libxcb                    1.15                 h7f8727e_0  
+libxml2                   2.9.14               h74e7548_0  
+libxslt                   1.1.35               h4e12654_0  
+llvmlite                  0.39.1           py37he621ea3_0  
+locket                    1.0.0            py37h06a4308_0  
+lxml                      4.9.1            py37h1edc446_0  
+lz4-c                     1.9.4                h6a678d5_1  
+lzo                       2.10                 h7b6447c_2  
+markdown                  3.4.1            py37h06a4308_0  
+markupsafe                2.1.1            py37h7f8727e_0  
+matplotlib                3.5.3            py37h06a4308_0  
+matplotlib-base           3.5.3            py37hf590b9c_0  
+matplotlib-inline         0.1.6            py37h06a4308_0  
+mccabe                    0.6.1            py37h06a4308_2  
+mistune                   0.8.4           py37h14c3975_1001  
+mkl                       2021.4.0           h06a4308_640  
+mkl-service               2.4.0            py37h7f8727e_0  
+mkl_fft                   1.3.1            py37hd3c417c_0  
+mkl_random                1.2.2            py37h51133e4_0  
+mock                      4.0.3              pyhd3eb1b0_0  
+mpc                       1.1.0                h10f8cd9_1  
+mpfr                      4.0.2                hb69a4c5_1  
+mpi                       1.0                       mpich  
+mpich                     3.3.2                hc856adb_0  
+mpmath                    1.2.1            py37h06a4308_0  
+msgpack-python            1.0.3            py37hd09550d_0  
+multidict                 6.0.5                    pypi_0    pypi
+multipledispatch          0.6.0                    py37_0  
+multiprocess              0.70.14                  pypi_0    pypi
+munkres                   1.1.4                      py_0  
+murmurhash                1.0.10                   pypi_0    pypi
+mypy_extensions           0.4.3            py37h06a4308_1  
+nbclassic                 0.5.2            py37h06a4308_0  
+nbclient                  0.5.13           py37h06a4308_0  
+nbconvert                 6.5.4            py37h06a4308_0  
+nbformat                  5.7.0            py37h06a4308_0  
+ncurses                   6.4                  h6a678d5_0  
+nest-asyncio              1.5.6            py37h06a4308_0  
+networkx                  2.6.3              pyhd3eb1b0_0  
+nltk                      3.7                pyhd3eb1b0_0  
+nose                      1.3.7           pyhd3eb1b0_1008  
+notebook                  6.5.2            py37h06a4308_0  
+notebook-shim             0.2.2            py37h06a4308_0  
+numba                     0.56.4           py37h417a72b_0  
+numexpr                   2.8.4            py37he184ba9_0  
+numpy                     1.21.5           py37h6c91a56_3  
+numpy-base                1.21.5           py37ha15fc14_3  
+numpydoc                  1.5.0            py37h06a4308_0  
+olefile                   0.46                     py37_0  
+oniguruma                 6.9.7.1              h27cfd23_0  
+openpyxl                  3.0.10           py37h5eee18b_0  
+openssl                   1.0.2u               h7b6447c_0  
+packaging                 22.0             py37h06a4308_0  
+pandas                    1.3.5            py37h8c16a72_0  
+pandocfilters             1.5.0              pyhd3eb1b0_0  
+panel                     0.14.3           py37h06a4308_0  
+param                     1.12.3           py37h06a4308_0  
+parsel                    1.6.0            py37h06a4308_0  
+parso                     0.8.3              pyhd3eb1b0_0  
+partd                     1.2.0              pyhd3eb1b0_1  
+pathspec                  0.10.3           py37h06a4308_0  
+patsy                     0.5.3            py37h06a4308_0  
+pcre                      8.45                 h295c915_0  
+pep8                      1.7.1            py37h06a4308_1  
+pexpect                   4.8.0              pyhd3eb1b0_3  
+pickleshare               0.7.5           pyhd3eb1b0_1003  
+pillow                    9.4.0            py37h6a678d5_0  
+pip                       22.3.1           py37h06a4308_0  
+pkgutil-resolve-name      1.3.10           py37h06a4308_0  
+plac                      1.1.3                    pypi_0    pypi
+platformdirs              2.5.2            py37h06a4308_0  
+plotly                    5.9.0            py37h06a4308_0  
+pluggy                    1.0.0            py37h06a4308_1  
+poyo                      0.5.0              pyhd3eb1b0_0  
+preshed                   3.0.9                    pypi_0    pypi
+prometheus_client         0.14.1           py37h06a4308_0  
+prompt-toolkit            3.0.36           py37h06a4308_0  
+prompt_toolkit            3.0.36               hd3eb1b0_0  
+protego                   0.1.16                     py_0  
+psutil                    5.9.0            py37h5eee18b_0  
+ptyprocess                0.7.0              pyhd3eb1b0_2  
+py                        1.11.0             pyhd3eb1b0_0  
+pyarrow                   12.0.1                   pypi_0    pypi
+pyasn1                    0.4.8              pyhd3eb1b0_0  
+pyasn1-modules            0.2.8                      py_0  
+pycocoevalcap             1.2                      pypi_0    pypi
+pycocotools               2.0.7                    pypi_0    pypi
+pycodestyle               2.8.0              pyhd3eb1b0_0  
+pycosat                   0.6.4            py37h5eee18b_0  
+pycparser                 2.21               pyhd3eb1b0_0  
+pycrypto                  2.6.1           py37h7b6447c_10  
+pyct                      0.5.0            py37h06a4308_0  
+pycurl                    7.43.0.2         py37hb7f436b_0  
+pydispatcher              2.0.5            py37h06a4308_2  
+pydocstyle                6.3.0            py37h06a4308_0  
+pyerfa                    2.0.0            py37h27cfd23_0  
+pyflakes                  2.4.0              pyhd3eb1b0_0  
+pygments                  2.11.2             pyhd3eb1b0_0  
+pyhamcrest                2.0.2              pyhd3eb1b0_2  
+pylint                    2.16.2           py37h06a4308_0  
+pyls-spyder               0.4.0              pyhd3eb1b0_0  
+pyodbc                    4.0.34           py37h6a678d5_0  
+pyopenssl                 23.0.0           py37h06a4308_0  
+pyparsing                 3.0.9            py37h06a4308_0  
+pyqt                      5.9.2            py37h05f1152_2  
+pyrsistent                0.18.0           py37heee7806_0  
+pysocks                   1.7.1                    py37_1  
+pytables                  3.7.0            py37hf19a122_1  
+pytest                    7.1.2            py37h06a4308_0  
+python                    3.7.0                h6e4f718_3  
+python-dateutil           2.8.2              pyhd3eb1b0_0  
+python-fastjsonschema     2.16.2           py37h06a4308_0  
+python-lsp-black          1.0.0              pyhd3eb1b0_0  
+python-lsp-jsonrpc        1.0.0              pyhd3eb1b0_0  
+python-lsp-server         1.3.3              pyhd3eb1b0_0  
+python-slugify            5.0.2              pyhd3eb1b0_0  
+python-snappy             0.6.1            py37h6a678d5_0  
+pytoolconfig              1.2.5            py37h06a4308_1  
+pytz                      2022.7           py37h06a4308_0  
+pyviz_comms               2.0.2              pyhd3eb1b0_0  
+pywavelets                1.3.0            py37h7f8727e_0  
+pyxdg                     0.27               pyhd3eb1b0_0  
+pyyaml                    6.0              py37h5eee18b_1  
+pyzmq                     23.2.0           py37h6a678d5_0  
+qdarkstyle                3.0.2              pyhd3eb1b0_0  
+qstylizer                 0.2.2            py37h06a4308_0  
+qt                        5.9.6                h8703b6f_2  
+qtawesome                 1.2.2            py37h06a4308_0  
+qtconsole                 5.2.2              pyhd3eb1b0_0  
+qtpy                      2.2.0            py37h06a4308_0  
+queuelib                  1.5.0            py37h06a4308_0  
+readline                  7.0                  h7b6447c_5  
+regex                     2022.7.9         py37h5eee18b_0  
+requests                  2.28.1           py37h06a4308_0  
+requests-file             1.5.1              pyhd3eb1b0_0  
+responses                 0.18.0                   pypi_0    pypi
+rope                      1.7.0            py37h06a4308_0  
+rouge-score               0.1.2                    pypi_0    pypi
+rtree                     1.0.1            py37h06a4308_0  
+ruamel.yaml.clib          0.2.6            py37h5eee18b_1  
+ruamel_yaml               0.17.21          py37h5eee18b_0  
+s3transfer                0.6.0            py37h06a4308_0  
+safetensors               0.4.3                    pypi_0    pypi
+scikit-image              0.16.2           py37h0573a6f_0  
+scikit-learn              1.0.2            py37h51133e4_1  
+scikit-learn-intelex      2021.6.0         py37h06a4308_0  
+scipy                     1.7.3            py37hc147768_0  
+scrapy                    2.6.2            py37h06a4308_0  
+seaborn                   0.12.2           py37h06a4308_0  
+secretstorage             3.3.1            py37h06a4308_0  
+send2trash                1.8.0              pyhd3eb1b0_1  
+service_identity          18.1.0             pyhd3eb1b0_1  
+setuptools                65.6.3           py37h06a4308_0  
+sip                       4.19.8           py37hf484d3e_0  
+six                       1.16.0             pyhd3eb1b0_1  
+smart_open                5.2.1            py37h06a4308_0  
+snappy                    1.1.10               h6a678d5_1  
+sniffio                   1.2.0            py37h06a4308_1  
+snowballstemmer           2.2.0              pyhd3eb1b0_0  
+sortedcollections         2.1.0              pyhd3eb1b0_0  
+sortedcontainers          2.4.0              pyhd3eb1b0_0  
+soupsieve                 2.3.2.post1      py37h06a4308_0  
+spacy                     2.2.4                    pypi_0    pypi
+sphinx                    5.0.2            py37h06a4308_0  
+sphinxcontrib-applehelp   1.0.2              pyhd3eb1b0_0  
+sphinxcontrib-devhelp     1.0.2              pyhd3eb1b0_0  
+sphinxcontrib-htmlhelp    2.0.0              pyhd3eb1b0_0  
+sphinxcontrib-jsmath      1.0.1              pyhd3eb1b0_0  
+sphinxcontrib-qthelp      1.0.3              pyhd3eb1b0_0  
+sphinxcontrib-serializinghtml 1.1.5              pyhd3eb1b0_0  
+spyder                    5.2.2            py37h06a4308_1  
+spyder-kernels            2.2.1            py37h06a4308_0  
+sqlalchemy                1.4.39           py37h5eee18b_0  
+sqlite                    3.33.0               h62c20be_0  
+srsly                     1.0.7                    pypi_0    pypi
+statsmodels               0.13.5           py37h7deecbd_1  
+sympy                     1.10.1           py37h06a4308_0  
+tabulate                  0.8.10           py37h06a4308_0  
+tbb                       2021.8.0             hdb19cb5_0  
+tbb4py                    2021.7.0         py37hdb19cb5_0  
+tblib                     1.7.0              pyhd3eb1b0_0  
+tenacity                  8.0.1            py37h06a4308_1  
+terminado                 0.17.1           py37h06a4308_0  
+testpath                  0.6.0            py37h06a4308_0  
+text-unidecode            1.3                pyhd3eb1b0_0  
+textdistance              4.2.1              pyhd3eb1b0_0  
+thinc                     7.4.0                    pypi_0    pypi
+threadpoolctl             2.2.0              pyh0d69192_0  
+three-merge               0.1.1              pyhd3eb1b0_0  
+tinycss2                  1.2.1            py37h06a4308_0  
+tk                        8.6.14               h39e8969_0  
+tldextract                3.2.0              pyhd3eb1b0_0  
+tokenizers                0.13.3                   pypi_0    pypi
+toml                      0.10.2             pyhd3eb1b0_0  
+tomli                     2.0.1            py37h06a4308_0  
+tomlkit                   0.11.1           py37h06a4308_0  
+toolz                     0.12.0           py37h06a4308_0  
+torch                     1.13.0+cu117             pypi_0    pypi
+torchaudio                0.13.0+cu117             pypi_0    pypi
+torchvision               0.14.0+cu117             pypi_0    pypi
+tornado                   6.2              py37h5eee18b_0  
+tqdm                      4.64.1           py37h06a4308_0  
+traitlets                 5.7.1            py37h06a4308_0  
+transformers              4.30.2                   pypi_0    pypi
+twisted                   22.2.0           py37h5eee18b_1  
+typed-ast                 1.4.3            py37h7f8727e_1  
+typing-extensions         4.4.0            py37h06a4308_0  
+typing_extensions         4.4.0            py37h06a4308_0  
+ujson                     5.4.0            py37h6a678d5_0  
+unidecode                 1.2.0              pyhd3eb1b0_0  
+unixodbc                  2.3.11               h5eee18b_0  
+urllib3                   1.26.14          py37h06a4308_0  
+w3lib                     1.21.0             pyhd3eb1b0_0  
+wasabi                    0.10.1                   pypi_0    pypi
+watchdog                  2.1.6            py37h06a4308_0  
+wcwidth                   0.2.5              pyhd3eb1b0_0  
+webencodings              0.5.1                    py37_1  
+websocket-client          0.58.0           py37h06a4308_4  
+werkzeug                  2.2.2            py37h06a4308_0  
+wget                      1.19.5               h1ad7b7a_0  
+wheel                     0.38.4           py37h06a4308_0  
+widgetsnbextension        3.5.2            py37h06a4308_0  
+wrapt                     1.14.1           py37h5eee18b_0  
+wurlitzer                 3.0.2            py37h06a4308_0  
+xarray                    0.20.1             pyhd3eb1b0_1  
+xlrd                      2.0.1              pyhd3eb1b0_1  
+xlsxwriter                3.0.3              pyhd3eb1b0_0  
+xxhash                    3.4.1                    pypi_0    pypi
+xz                        5.4.6                h5eee18b_1  
+yaml                      0.2.5                h7b6447c_0  
+yapf                      0.31.0             pyhd3eb1b0_0  
+yarl                      1.9.4                    pypi_0    pypi
+zeromq                    4.3.5                h6a678d5_0  
+zict                      2.1.0            py37h06a4308_0  
+zipp                      3.11.0           py37h06a4308_0  
+zlib                      1.2.13               h5eee18b_1  
+zope                      1.0                      py37_1  
+zope.interface            5.4.0            py37h7f8727e_0  
+zstd                      1.5.5                hc292b87_2  
