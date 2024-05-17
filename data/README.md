@@ -24,18 +24,20 @@ data/
 - This directory also contains normalization parameters (mu, std) for all layers.
 ```plaintext
 feature/
-├── deberta-large/
-│   ├── caption/
-│   │   └── (layer01.mat/.../layer24.mat) (caption-wise features; feat:[nVideos x 20 captions] x nUnits)
-│   ├── video/
-│   │   └── (layer01.mat/.../layer24.mat) (video-wise features; feat:nVideos x nUnits)
-│   └── norm_param/
-│       └── (layer01.mat/.../layer24.mat)  (mu, sd; 1 x nUnits)
-└── timesformer/
-    ├── video/
-    │   └── (layer01.mat/.../layer12.mat) (video-wise features; feat:nVideos x nUnits)
-    └── norm_param/
-        └── (layer01.mat/.../layer12.mat)  (mu, sd; 1 x nUnits)
+├── caption/ (caption-wise features; feat:[nVideos x 20 captions] x nUnits)
+│   └── deberta-large/
+│       └── (layer01.mat/.../layer24.mat) 
+├── video/ (video-wise features; feat:nVideos x nUnits)
+│   ├── deberta-large/
+│   │   └── (layer01.mat/.../layer24.mat) 
+│   └── timesformer/
+│       └── (layer01.mat/.../layer12.mat)
+└── norm_param/ (normalization parameters; mu, sd; 1 x nUnits)
+    ├── deberta-large/
+    │   └── (layer01.mat/.../layer24.mat) 
+    ├── timesformer/
+    │   └── (layer01.mat/.../layer12.mat)
+    └── ...
 ```
 ### Note
 -
