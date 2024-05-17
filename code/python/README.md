@@ -10,6 +10,7 @@
 >> sh ./setup.sh
 >> source activate mcap_demo
 ```
+- See [./version_info.txt](./version_info.txt) for versions of installed libraries (Linux). 
 
 ### Demo
 - You can also use our method for reconstucting arbitrary word sequences from semantic features (e.g., "May the Force be with you.").
