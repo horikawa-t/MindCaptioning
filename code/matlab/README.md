@@ -1,6 +1,7 @@
 ## Decoding and encoding analyses
 - We implemented the decoding and encoding analyses using MATLAB (tested by MATLAB version 9.7, R2019b).
-- Preprocessed fMRI data and features should be located in specified directory in MindCaptioning/data/{[fmri](../../data/fmri)/[feature](../../data/feature)}. See [README.md](../../data/README.md) in the data directory.
+- Preprocessed fMRI data and features should be located in specified directory in MindCaptioning/data/{[fmri](../../data/fmri)/[feature](../../data/feature)}.
+- See [README.md](../../data/README.md) in the data directory for the detailes of data structures.
 
 ### Analysis
 - Run the following script in MATLAB.
