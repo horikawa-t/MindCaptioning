@@ -10,8 +10,7 @@
 ```
 - Each of the encoding and decoding analysis can be performed with multiple CPUs in parallel.
 - The encoding results are required for the decoding analysis (for voxel selection).
-- The use of multiple CPUs is strongly recommended to run the whole analysis, as the encoding and decoding analysis will take about 1 and 50 weeks, respectivly, using a single CPU to complete all the computations.
- 
+- Using multiple CPUs is strongly recommended for the entire analysis, as the encoding analysis will take about 1 week and the decoding analysis about 50 weeks to complete if using a single CPU.
 - All results will be saved in MindCaptioning/res/ directory.
 - The resultant decoded features will be used in the text generation analysis implemented by Python.
 - Whole brain decoding results can be downloaded from figshare without performing the analysis by yourself:
