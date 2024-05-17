@@ -20,7 +20,6 @@
 ### Analysis
 - To reproduce the main results in our manuscript, run the following script after activating the environment ('mcap_demo').
 - While this analysis required decoding results generated using our [matlab code](../matlab), you can download whole brain decoding results from figshare without performing the analysis by yourself: <a href="https://doi.org/10.6084/m9.figshare.25808179">figshare</a> (<a href="https://figshare.com/ndownloader/files/46347475">res_featdec_wb.zip</a>)
-- 
 ```plaintext
 >> source activate mcap_demo
 >> python mcap_analysis.py
