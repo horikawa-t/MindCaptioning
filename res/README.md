@@ -11,9 +11,16 @@ res/
 │           └──(S1/.../S6)/
 │               └──(WB/WBnoVis/WBnoSem/WBnoLang/Lang)/ 
 │                   └──(layer01/.../layer24).mat
-└── encoding/
+├── encoding/
+│   └── (trainPerception/testPerception/testImagery)/
+│       └── (deberta-large/timesformer)/
+│           └──(S1/.../S6)/
+│              └──(layer01/.../layer24).mat
+└── text_generation/
     └── (trainPerception/testPerception/testImagery)/
-        └── (deberta-large/timesformer)/
-            └──(S1/.../S6)/
-               └──(layer01/.../layer24).mat
+        └── (mlm_roberta-large)/
+            └── (lm_deberta-large)/
+                └──(S1/.../S6)/
+                    └──(WB/WBnoVis/WBnoSem/WBnoLang/Lang)/ 
+                       └──(res_samp0001/...).mat
 ```
