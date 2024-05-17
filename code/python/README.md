@@ -22,5 +22,8 @@
 >> source activate mcap_demo
 >> python mcap_analysis.py
 ```
+- The main analysis will
+- Using multiple GPUs is strongly recommended for the entire analysis, as the text generation analysis will take about 30 days to complete a single ROI analysis if using a single GPU.
+
 ### Note
 - Although the script can run without a GPU, it will take an extremely long time for computation.
