@@ -9,4 +9,4 @@ This repository contains the data and code for reproducing results in our paper:
 ## Code
 - MATLAB and Python scripts for reproducing the main results of our study are available in the [./code](code/) directory. See the [README.md](code/README.md) file in the directory for details.
 ## Note
-- If you encounter any issues accessing the data or code, please contact us at horikawa.t@gmail.com.
+- If you encounter any issues accessing the data or code, please open an issue on the GitHub repository.
