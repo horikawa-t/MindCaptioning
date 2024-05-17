@@ -16,6 +16,6 @@
 - The resultant decoded features will be used in the text generation analysis implemented by [Python](../python).
 - Whole brain decoding results can be downloaded from figshare without performing the analysis by yourself:
  <a href="https://doi.org/10.6084/m9.figshare.25808179">figshare</a>
- (<a href="https://figshare.com/ndownloader/files/46347475">res_featdec_wb.zip</a>)
+ (<a href="https://figshare.com/ndownloader/files/46387381">res_featdec_wb.zip</a>)
 
 ### 
