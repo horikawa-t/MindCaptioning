@@ -39,5 +39,6 @@ feature/
     │   └── (layer01.mat/.../layer12.mat)
     └── ...
 ```
-### Note
--
+### Caption
+- The video caption data were collected via a crowdsourcing experiment.
+- 20 captions were annotated for each of the original 2196 videos, resulting in a total of 43920 captions.
