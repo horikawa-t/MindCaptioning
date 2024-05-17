@@ -1,0 +1,19 @@
+channels:
+  - defaults
+  - anaconda
+  - conda-forge
+dependencies:
+  - python==3.7
+  - anaconda
+  - pip==24.0
+  - absl-py
+  - pip:
+    - torch==1.13.0
+    - torchvision==0.14.0
+    - torchaudio==0.13.0
+    - transformers
+    - bert-score
+    - evaluate
+    - nltk
+    - rouge_score
+    - pycocoevalcap
