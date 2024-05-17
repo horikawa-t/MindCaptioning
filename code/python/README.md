@@ -23,7 +23,7 @@
 >> source activate mcap_demo
 >> python mcap_analysis.py
 ```
-- While this analysis requires decoding results generated using our [MATLAB code](../matlab), you can download whole brain decoding results from figshare without performing the analysis by yourself: <a href="https://doi.org/10.6084/m9.figshare.25808179">figshare</a> (<a href="https://figshare.com/ndownloader/files/46347475">res_featdec_wb.zip</a>)
+- While this analysis requires decoding results generated using our [MATLAB code](../matlab), you can download whole brain decoding results from figshare without performing the analysis by yourself: <a href="https://doi.org/10.6084/m9.figshare.25808179">figshare</a> (<a href="https://figshare.com/ndownloader/files/46387381">res_featdec_wb.zip</a>)
 - Using multiple GPUs is strongly recommended for the entire analysis, as the text generation analysis will take about 30 days to complete a single ROI analysis if using a single GPU.
 
 ### Note
