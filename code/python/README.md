@@ -10,9 +10,10 @@
 >> sh ./setup.sh
 >> source activate mcap_demo
 ```
+
 ### Demo
 - You can also use our method for reconstucting arbitrary word sequences from semantic features (e.g., "May the Force be with you.").
-- See [./python/mcap_demo.ipynb](./python/mcap_demo.ipynb) for a quick demo. 
+- See [./python/mcap_demo.ipynb](./python/mcap_demo.ipynb) for a quick demo.
 
 ### Analysis
 - To reproduce the main results in our manuscript, run the following script after activating the environment (mcap_demo).
@@ -20,3 +21,5 @@
 >> source activate mcap_demo
 >> python mcap_analysis.py
 ```
+### Note
+- Although the script can run without a GPU, it will take an extremely long time for computation.
