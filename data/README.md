@@ -21,7 +21,7 @@ data/
 ```
 ### feature
 - Feature data contain semantic features of deberta-large (for each video and caption) and visual features of timesformer (for each video).
-- This directory also contains normalization parameters (mu, std) for all layers.
+- This directory also contains normalization parameters (mu, std) for all layers of 43 models (42 language models and timesformer).
 ```plaintext
 feature/
 ├── caption/ (caption-wise features; feat:[nVideos x 20 captions] x nUnits)
