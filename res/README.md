@@ -1,7 +1,5 @@
 ## Results
 - Results will be saved in this directory.
-- The decoding results can be downloaded from figshare without performing the analysis by yourself: figshare (res_featdec.zip)
-- The decoding results will be used in the text generation analysis implemented by Python.
 - ./res directory should have the following files:
 ```plaintext
 res/
@@ -24,3 +22,5 @@ res/
                     └──(WB/WBnoVis/WBnoSem/WBnoLang/Lang)/ 
                        └──(res_samp0001/...).mat
 ```
+- The decoding results will be used in the text generation analysis implemented by [../code/python/](Python).
+- The decoding results can be downloaded from figshare without performing the analysis by yourself: <a href="https://doi.org/10.6084/m9.figshare.25808179">figshare</a> (<a href="https://figshare.com/ndownloader/files/46387381">res_featdec_wb.zip</a>)
