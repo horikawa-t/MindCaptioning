@@ -26,7 +26,7 @@
 - This script generates result figures in Fig. 3.
 - You can download subsets of the encoding results from figshare without performing the analysis by yourself:
  <a href="https://doi.org/10.6084/m9.figshare.25808179">figshare</a>
- (<a href="https://figshare.com/ndownloader/files/46387381">encoding_summary.zip</a>). After downloading, unzip the file and place it in the [MindCaptioning/res/encoding](../../res/encoding) directory.
+ (<a href="https://figshare.com/ndownloader/files/46420405">res_encoding.zip</a>). After downloading, unzip the file and place it in the [MindCaptioning/res/encoding](../../res/encoding) directory.
 
 ### Summary of text generation results
 - Run the following script in MATLAB after completing the text generation analysis.
