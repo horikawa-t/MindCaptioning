@@ -59,7 +59,7 @@
 
 ### Demo
 - You can use our method to reconstruct arbitrary word sequences from semantic features (e.g., "May the Force be with you.").
-- For a quick demo, see [./mcap_demo.ipynb](./mcap_demo.ipynb)．
+- For a quick demo, see [./python/mcap_demo.ipynb](./python/mcap_demo.ipynb)．
 
 ### Analysis
 - To reproduce the main results in our manuscript, run the following script after activating the environment ('mcap_demo').
