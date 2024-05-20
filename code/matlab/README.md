@@ -23,8 +23,16 @@
 ```plaintext
 >> mcap_summary_encoding
 ```
-- This script generate result figures corresponding to Fig.3c-f.
 - A subset of encoding results can be downloaded from figshare without performing the analysis by yourself:
  <a href="https://doi.org/10.6084/m9.figshare.25808179">figshare</a>
  (<a href="https://figshare.com/ndownloader/files/46387381">encoding_summary.zip</a>)
 -- Put the result files under ./res/encoding/.
+
+### Summary of text generation results
+- Run the following script in MATLAB after completing the text generation analysis.
+```plaintext
+>> mcap_summary_decoding
+```
+- You can download subsets of the text generation results from <a href="https://doi.org/10.6084/m9.figshare.25808179">figshare</a> (res_summary.zip) without having to perform the analysis yourself.
+-- Put the result files under ./res/text_generation/.
+
