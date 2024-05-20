@@ -10,5 +10,5 @@ This repository contains the data and code for reproducing results in our paper:
 - MATLAB and Python scripts for reproducing the main results of our study are available in the [./code](code/) directory. See the [README.md](code/README.md) file in the directory for details.
 ## Note
 - If you encounter any issues accessing the data or code, please open an issue on the GitHub repository.
-- You can download subsets of the results from <a href="https://doi.org/10.6084/m9.figshare.25808179">figshare</a> without having to perform the analysis yourself.
+- You can download subsets of the results from figshare without having to perform the analysis yourself: <a href="https://doi.org/10.6084/m9.figshare.25808179">figshare</a>
 
