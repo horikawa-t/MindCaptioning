@@ -23,6 +23,7 @@
 ```plaintext
 >> mcap_summary_encoding
 ```
+- This script generates result figures in Fig. 3.
 - You can download subsets of the encoding results from figshare without performing the analysis by yourself:
  <a href="https://doi.org/10.6084/m9.figshare.25808179">figshare</a>
  (<a href="https://figshare.com/ndownloader/files/46387381">encoding_summary.zip</a>). After downloading, unzip the file and place it in the [MindCaptioning/res/encoding](../../res/encoding) directory.
@@ -32,4 +33,5 @@
 ```plaintext
 >> mcap_summary_decoding
 ```
+- This script generates result figures in Fig. 2 and 4.
 - You can download subsets of the text generation results from <a href="https://doi.org/10.6084/m9.figshare.25808179">figshare</a> (res_summary.zip) without having to perform the analysis yourself. After downloading, unzip the file and place it in the [MindCaptioning/res/text_generation](../../res/text_generation) directory.
