@@ -34,4 +34,4 @@
 >> mcap_summary_decoding
 ```
 - This script generates result figures in Fig. 2 and 4.
-- You can download subsets of the text generation results from <a href="https://doi.org/10.6084/m9.figshare.25808179">figshare</a> (res_summary.zip) without having to perform the analysis yourself. After downloading, unzip the file and place it in the [MindCaptioning/res/text_generation](../../res/text_generation) directory.
+- You can download subsets of the text generation results from <a href="https://doi.org/10.6084/m9.figshare.25808179">figshare</a> (res_textgen.zip) without having to perform the analysis yourself. After downloading, unzip the file and place it in the [MindCaptioning/res/text_generation](../../res/text_generation) directory.
