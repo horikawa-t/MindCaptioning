@@ -10,7 +10,6 @@
 clear all, close all
 
 % set path to MindCaptioning directory
-cd('/home/psi/horikawa-t/toolbox/public/mcap/');
 p.rootPath = './';
 addpath(genpath([p.rootPath,'code/']));
 

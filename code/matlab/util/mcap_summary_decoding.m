@@ -10,7 +10,6 @@
 clear all, close all
 
 % general info.
-cd('/home/psi/horikawa-t/toolbox/public/mcap/');
 p.rootPath = './';
 addpath(genpath([p.rootPath,'code/']));
 
@@ -28,7 +27,7 @@ p.dataTypes = {'testPerception','testImagery'};
 res = mcap_summary_decoding_summarize(p);
 
 %% draw figures for text generation results
-mcap_summary_decoding_draw_generatedtext(res,p);
+mcap_summary_decoding_draw_generatedtext(res,p); 
 mcap_summary_decoding_draw_similarity(res,p);
 mcap_summary_decoding_draw_idenacc(res,p);
 
