@@ -1,6 +1,10 @@
 # filename: mcap_analysis.py
 # source activate mcap_demo
+# 
 # This script is written to perform sentence generation analysis from brain-decoded features
+#   Horikawa, T. (2024) Mind captioning: Evolving descriptive text of mental content from human brain activity. bioRxiv. 
+#  written by Tomoyasu Horikawa horikawa.t@gmail.com 2024/05/13
+# 
 
 # set path to MindCaptioning directory
 rootPath = './'
@@ -36,6 +40,7 @@ else:
     os.environ['CUDA_VISIBLE_DEVICES'] = ""
 device = "cuda" if torch.cuda.is_available() and gpu_use == 1 else "cpu"
 print('gpu availability:%d'%(torch.cuda.is_available()))
+os.environ['HDF5_USE_FILE_LOCKING'] = 'FALSE'
 
 # general settings
 save_log = 1
@@ -57,7 +62,7 @@ proxies = {
 dataTypes = ['testPerception','testImagery'] # ['testPerception','testImagery','trainPerception']
 capType = 'ck20'
 
-roiType = 'WB' # ['WB','WBnoLang','WBnoSem','WBnoVis']
+roiTypes = ['WB','WBnoLang','WBnoSem','WBnoVis','Lang']
 
 # subject settings
 sbjs = ['S1','S2','S3','S4','S5','S6']
@@ -124,7 +129,7 @@ nCapEach = 20
 start = time.time()
 
 ## start analysis
-for dataType, sbj in itt.product(dataTypes,sbjs):
+for dataType, roiType, sbj in itt.product(dataTypes,roiTypes,sbjs):
     
     # assign # of samples
     if dataType.startswith(('test')):
