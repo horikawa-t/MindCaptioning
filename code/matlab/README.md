@@ -18,4 +18,13 @@
  <a href="https://doi.org/10.6084/m9.figshare.25808179">figshare</a>
  (<a href="https://figshare.com/ndownloader/files/46387381">res_featdec_wb.zip</a>)
 
-### 
+### Evaluation
+- Run the following script in MATLAB after completing the encoding analysis.
+```plaintext
+>> mcap_summary_encoding
+```
+- This script generate result figures corresponding to Fig.3c-f.
+- A subset of encoding results can be downloaded from figshare without performing the analysis by yourself:
+ <a href="https://doi.org/10.6084/m9.figshare.25808179">figshare</a>
+ (<a href="https://figshare.com/ndownloader/files/46387381">encoding_summary.zip</a>)
+-- Put the result files under ./res/encoding/.
