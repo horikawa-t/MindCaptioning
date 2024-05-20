@@ -1,6 +1,6 @@
 ## Decoding and encoding analyses
 - We implemented the decoding and encoding analyses using MATLAB (tested by MATLAB version 9.7, R2019b).
-- Preprocessed fMRI data and features should be located in specified directory in MindCaptioning/data/{[fmri](../../data/fmri)/[feature](../../data/feature)}.
+- Preprocessed fMRI data and features should be located in specified directory in MindCaptioning/data/{fmri/feature}.
 - See [README.md](../../data/README.md) in the data directory for the detailes of data structures.
 
 ### Analysis
@@ -16,7 +16,7 @@
 - The resultant decoded features will be used in the text generation analysis implemented by [Python](../python).
 - Whole brain decoding results can be downloaded from figshare without performing the analysis by yourself:
  <a href="https://doi.org/10.6084/m9.figshare.25808179">figshare</a>
- (<a href="https://figshare.com/ndownloader/files/46387381">res_featdec_wb.zip</a>)
+ (<a href="https://figshare.com/ndownloader/files/46420294">decfeat_wb.zip</a>)
 
 ### Evaluation
 - Run the following script in MATLAB after completing the encoding analysis.
