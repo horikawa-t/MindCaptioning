@@ -1,6 +1,6 @@
 ### fMRI data
 - fMRI data contain preprocessed fMRI data and spaceDefine files for all subjects.
-- [../fmri](fmri/) directory should have the following files:
+- [../fmri](../fmri/) directory should have the following files:
 ```plaintext
 data/
 ├── preprocessed/
