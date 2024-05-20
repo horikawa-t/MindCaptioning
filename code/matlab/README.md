@@ -34,5 +34,5 @@
 >> mcap_summary_decoding
 ```
 - You can download subsets of the text generation results from <a href="https://doi.org/10.6084/m9.figshare.25808179">figshare</a> (res_summary.zip) without having to perform the analysis yourself.
--- Put the result files under ./res/text_generation/.
+- Put the result file under ./res/text_generation/.
 
