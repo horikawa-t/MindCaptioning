@@ -42,3 +42,6 @@ feature/
 ### Video caption
 - The video caption data were collected via a crowdsourcing experiment.
 - 20 captions were annotated for each of the original 2196 videos, resulting in a total of 43920 captions.
+
+### misc
+- The misc directory contains data used for summarizing results. 
