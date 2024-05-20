@@ -23,7 +23,7 @@
 ```plaintext
 >> mcap_summary_encoding
 ```
-- A subset of encoding results can be downloaded from figshare without performing the analysis by yourself:
+- You can download subsets of the encoding results from figshare without performing the analysis by yourself:
  <a href="https://doi.org/10.6084/m9.figshare.25808179">figshare</a>
  (<a href="https://figshare.com/ndownloader/files/46387381">encoding_summary.zip</a>). After downloading, unzip the file and place it in the [MindCaptioning/res/encoding](../../res/encoding) directory.
 
