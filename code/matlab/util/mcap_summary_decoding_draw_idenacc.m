@@ -96,9 +96,8 @@ for cix = 1:length(C.cond_list)
         set(hh,'Color',[1,1,1]*0.8)
         ylabel('Identiciation accuracy (%)')
         title(sprintf('%s',sbj));
-        set(gca, 'Box', 'off' ); % here gca means get current axis
-        set(gca, 'TickDir', 'out');
-        %ffine(h);
+        slegend(scoreTypes);
+        ffine(h)
         
         % figure adjust
         cnt = cnt+0;
