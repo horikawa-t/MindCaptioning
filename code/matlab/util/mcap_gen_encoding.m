@@ -32,6 +32,7 @@ for cix = 1:length(C.cond_list)
     for cixx = 1:length(C.cond_list{cix})
         eval(sprintf('%s = C.cond_list{cix}{cixx};',C.cond_names{cixx}))
     end
+    skipflag = 0;
     
     % set data and feature params
     [featTypes, nlayers] = mcap_get_feature_params(rootPath,fparam,modelType);
@@ -51,7 +52,6 @@ for cix = 1:length(C.cond_list)
     saveFname = setPath2file(sprintf('%s/%s/res_summary.mat',savdir,suffix_summary)); % log files
     if checkModeRes, chkfile = saveFname; else, chkfile = saveFnameChk; end
     
-    fCheck = zeros(nlayers,1); % check variable
     for fitr = randsample(1:nlayers,nlayers)%1:nlayers
         featType = featTypes{fitr};
         
@@ -63,7 +63,6 @@ for cix = 1:length(C.cond_list)
         
         %% Start analyses
         if exist(chkfilex,'file')
-            fCheck(fitr) = exist(saveFnamex,'file') > 0;
             if del && ~exist(saveFnamex,'file') && exist(saveFnameChkx,'file')
                 fprintf('Delete: %s\n',saveFnameChkx)
                 delete(saveFnameChkx)
@@ -94,13 +93,13 @@ for cix = 1:length(C.cond_list)
             
             % load features
             % train
-            fpath = sprintf('%s/%s/video/%s.mat',featdir,modelType,featType);
+            fpath = sprintf([fileparts(fparam.feature_path_template),'/%s.mat'],rootPath,modelType,featType);
             L_train = load(fpath);
             if isempty(L_train.feat); delete(saveFnameChkx); continue; end
             L_train.feat = L_train.feat(labels_tr,:);
             
             % test
-            fpath = sprintf('%s/%s/video/%s.mat',featdir,modelType,featType);
+            fpath = sprintf([fileparts(fparam.feature_path_template),'/%s.mat'],rootPath,modelType,featType);
             L_test = load(fpath);
             if isempty(L_test.feat); delete(saveFnameChkx); continue; end
             L_test.feat = L_test.feat(labels_te,:);
@@ -223,6 +222,14 @@ for cix = 1:length(C.cond_list)
         end
     end
     
+    % check results
+    fCheck = zeros(nlayers,1); % check variable
+    for fitr = randsample(1:nlayers,nlayers)%1:nlayers
+        featType = featTypes{fitr};
+        dataFnamex = setPath2file(sprintf('%s/%s/%s.mat',savdir,suffix_summary,featType)); % res files
+        fCheck(fitr) = exist(dataFnamex,'file') > 0;
+    end
+    
     % summarize all layer results =================================
     if all(fCheck==1) && ~exist(chkfile,'file') && ~del && integrateRes
         fprintf('Summarize all layer results [%s: %s]\n',sbj,modelType)
@@ -243,6 +250,7 @@ for cix = 1:length(C.cond_list)
                 r = load(dataFnamex,'res_norm_rep','res_cv','mxindcv');
             catch me
                 fprintf('Failed to load:%s\n',dataFnamex)
+                skipflag = 1
                 break
             end
             for repitr = nRep:-1:1
@@ -255,6 +263,10 @@ for cix = 1:length(C.cond_list)
             r_cv_best.iden_acc(fitr,:) = r.res_cv.iden_acc(r.mxindcv,:);
             fprintf('trainCV[Layer%02d:mean] r(profile) = %.4f, r(pattern) = %.4f; iden acc = %.2f%%:%s\n',...
                 fitr,mean(r_cv_best.profile(fitr,:)),mean(r_cv_best.pattern(fitr,:)),mean(r_cv_best.iden_acc(fitr,:))*100,tims(1))
+        end
+        if skipflag
+            delete(saveFnameChk)
+            continue
         end
         
         % estimate best layers for each voxel

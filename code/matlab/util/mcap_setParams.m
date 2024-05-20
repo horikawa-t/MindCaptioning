@@ -38,6 +38,14 @@ p.aparam.l2.nparamLogSearch = 10; %  You can reduce computation time by setting 
 p.aparam.l2.lowL = 1;
 p.aparam.l2.highL = 6;
 
+do_demo = 0; % set 0, if you want to completely reproduce the manuscript results 
+if do_demo
+    %[4,4,5] can be used for demo [faster but with minor difference from our results]
+    p.aparam.l2.nparamLogSearch = 4;
+    p.aparam.l2.lowL = 4;
+    p.aparam.l2.highL = 5;
+end
+
 % decoding analysis parameters
 p.aparam.nSelectVoxels = 50000; % # of selected voxels (n = 50000 in our study). You can reduce computation time by setting smaller # of voxels (e.g., 5000) here.
 
@@ -48,7 +56,7 @@ p.rparam.genDecSkipROITypes = {};
 p.rparam.language = {'temporal_language','frontal_language'};
 
 % feature types
-p.fparam.feature_path_template = '%s/data/feature/%s/video/layer*.mat'; % 
+p.fparam.feature_path_template = '%s/data/feature/video/%s/layer*.mat'; % 
 
 % misc
 p.misc.decSkipModels = {'timesformer'};

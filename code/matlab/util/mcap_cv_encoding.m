@@ -27,6 +27,7 @@ for cix = 1:length(C.cond_list)
     for cixx = 1:length(C.cond_list{cix})
         eval(sprintf('%s = C.cond_list{cix}{cixx};',C.cond_names{cixx}))
     end
+    skipflag = 0;
     
     % set data and feature params
     [featTypes, nlayers] = mcap_get_feature_params(rootPath,fparam,modelType);
@@ -80,7 +81,7 @@ for cix = 1:length(C.cond_list)
             end
             
             % load features
-            fpath = sprintf('%s/%s/video/%s.mat',featdir,modelType,featType);
+            fpath = sprintf([fileparts(fparam.feature_path_template),'/%s.mat'],rootPath,modelType,featType);
             L = load(fpath);
             if isempty(L.feat); delete(saveFnameChkx); continue; end
             L.feat = L.feat(labels,:);            
@@ -167,14 +168,8 @@ for cix = 1:length(C.cond_list)
     fCheck = zeros(nlayers,1); % check variable
     for fitr = randsample(1:nlayers,nlayers)%1:nlayers
         featType = featTypes{fitr};
-        % set save info. for each layer results
-        saveFnameChkx = setPath2file(sprintf('%s/%s/%s_log.txt',savdir,suffix_summary,featType)); % log files
-        saveFnamex = setPath2file(sprintf('%s/%s/%s.mat',savdir,suffix_summary,featType)); % res files
-        %  Start analyses
-        if checkModeRes,chkfilex = saveFnamex;else,chkfilex = saveFnameChkx;end
-        if exist(chkfilex,'file')
-            fCheck(fitr) = exist(saveFnamex,'file') > 0;
-        end
+        dataFnamex = setPath2file(sprintf('%s/%s/%s.mat',savdir,suffix_summary,featType)); % res files
+        fCheck(fitr) = exist(dataFnamex,'file') > 0;
     end
         
     % summarize all layer results =================================
@@ -192,6 +187,7 @@ for cix = 1:length(C.cond_list)
                 r = load(dataFnamex,'res_all','res_nestcv','mxindcv');
             catch me
                 fprintf('Failed to load:%s\n',dataFnamex)
+                skipflag = 1;
                 break
             end
             r_cv_best.profile(fitr,:) = r.res_all.profile;
@@ -204,6 +200,10 @@ for cix = 1:length(C.cond_list)
             for folditr = nfolds:-1:1
                 r_nestcv_best.profile{folditr}(fitr,:) = r.res_nestcv.profile{folditr}(r.mxindcv(folditr),:);
             end
+        end
+        if skipflag
+            delete(saveFnameChk)
+            continue
         end
         % estimate best layers for each voxel in each folds
         for folditr = nfolds:-1:1

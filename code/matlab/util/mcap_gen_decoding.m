@@ -165,13 +165,13 @@ for cix = 1:length(C.cond_list)
             
             % load features
             % train
-            fpath = sprintf('%s/%s/video/%s.mat',featdir,modelType,featType);
+            fpath = sprintf([fileparts(fparam.feature_path_template),'/%s.mat'],rootPath,modelType,featType);
             L_train = load(fpath);
             if isempty(L_train.feat); delete(saveFnameChkx); continue; end
             L_train.feat = L_train.feat(labels_tr,:);
             
             % test
-            fpath = sprintf('%s/%s/video/%s.mat',featdir,modelType,featType);
+            fpath = sprintf([fileparts(fparam.feature_path_template),'/%s.mat'],rootPath,modelType,featType);
             L_test = load(fpath);
             if isempty(L_test.feat); delete(saveFnameChkx); continue; end
             L_test.feat = L_test.feat(labels_te,:);

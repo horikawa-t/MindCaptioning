@@ -48,7 +48,7 @@ for cix = 1:length(C.cond_list)
         lambda = logspace(ap.lowL,ap.highL,ap.nparamLogSearch);
         
         % load features
-        fpath = sprintf('%s/%s/video/%s.mat',featdir,modelType,featType);
+        fpath = sprintf([fileparts(fparam.feature_path_template),'/%s.mat'],rootPath,modelType,featType);
         L_org = load(fpath);
         if isempty(L_org.feat); continue; end
         
