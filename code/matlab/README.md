@@ -16,7 +16,7 @@
 - The resultant decoded features will be used in the text generation analysis implemented by [Python](../python).
 - Whole brain decoding results can be downloaded from figshare without performing the analysis by yourself:
  <a href="https://doi.org/10.6084/m9.figshare.25808179">figshare</a>
- (<a href="https://figshare.com/ndownloader/files/46420294">decfeat_wb.zip</a>)
+ (<a href="https://figshare.com/ndownloader/files/46420294">decfeat_wb.zip</a>). After downloading, unzip the file and place it in the [MindCaptioning/res/decoding](../../res/decoding) directory.
 
 ### Evaluation
 - Run the following script in MATLAB after completing the encoding analysis.
@@ -25,14 +25,11 @@
 ```
 - A subset of encoding results can be downloaded from figshare without performing the analysis by yourself:
  <a href="https://doi.org/10.6084/m9.figshare.25808179">figshare</a>
- (<a href="https://figshare.com/ndownloader/files/46387381">encoding_summary.zip</a>)
--- Put the result files under ./res/encoding/.
+ (<a href="https://figshare.com/ndownloader/files/46387381">encoding_summary.zip</a>). After downloading, unzip the file and place it in the [MindCaptioning/res/encoding](../../res/encoding) directory.
 
 ### Summary of text generation results
 - Run the following script in MATLAB after completing the text generation analysis.
 ```plaintext
 >> mcap_summary_decoding
 ```
-- You can download subsets of the text generation results from <a href="https://doi.org/10.6084/m9.figshare.25808179">figshare</a> (res_summary.zip) without having to perform the analysis yourself.
-- Put the result file under ./res/text_generation/.
-
+- You can download subsets of the text generation results from <a href="https://doi.org/10.6084/m9.figshare.25808179">figshare</a> (res_summary.zip) without having to perform the analysis yourself. After downloading, unzip the file and place it in the [MindCaptioning/res/text_generation](../../res/text_generation) directory.
