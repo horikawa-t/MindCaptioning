@@ -3,7 +3,7 @@
 - Results of feature decoding are required for generating descriptions from the brain.
 
 ### Setup instructions
-- Run the following command to set up and activate the conda enviroment (named 'mcap_demo').
+- Run the following command to set up and activate the conda (<a href="https://www.anaconda.com/">Anaconda</a>) enviroment (named 'mcap_demo').
 ```plaintext
 >> sh ./setup.sh
 >> source activate mcap_demo
