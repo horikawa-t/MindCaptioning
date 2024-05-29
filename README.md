@@ -1,7 +1,7 @@
 # MindCaptioning
 This repository contains the data and code for reproducing results in our paper: <a href="https://doi.org/10.1101/2024.04.23.590673">Horikawa, T. Mind captioning: Evolving descriptive text of mental content from human brain activity. bioRxiv (2024).</a>
 ## Dataset
-- Raw fMRI data: Available on OpenNeuro <a href="https://doi.org/10.18112/openneuro.ds005191.v1.0.1">https://doi.org/10.18112/openneuro.ds005191.v1.0.1</a>
+- Raw fMRI data: Available on OpenNeuro <a href="https://doi.org/10.18112/openneuro.ds005191.v1.0.2">https://doi.org/10.18112/openneuro.ds005191.v1.0.2</a>
 - Preprocessed fMRI data and semantic features: Available on figshare <a href="https://doi.org/10.6084/m9.figshare.25808179">https://doi.org/10.6084/m9.figshare.25808179</a>
 - Video captions: Located in [./data/caption/caption_ck20.csv](./data/caption/caption_ck20.csv)
 ## Stimuli
