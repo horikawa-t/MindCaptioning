@@ -5,7 +5,7 @@
 ### Setup instructions
 - Run the following command to set up and activate the conda (<a href="https://www.anaconda.com/">Anaconda</a>) enviroment (named 'mcap_demo').
 ```plaintext
->> sh ./setup.sh
+>> bash ./setup.sh
 >> source activate mcap_demo
 ```
 - For Linux: Tested Ubuntu 20.04.6 and 22.04.1 with NVIDIA GPU.
