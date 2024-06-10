@@ -9,8 +9,8 @@ if [[ "$(uname)" == "Darwin" ]]; then
 	conda run -n ${env_name} python -m spacy download en_core_web_sm
 	
 else
+	conda create -n mcap2 python==3.7 anaconda
     conda run -n ${env_name} pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu117
-	# Install libraries using pip and conda within the new environment
 	conda run -n ${env_name} pip install transformers
 	conda run -n ${env_name} pip install bert-score
 	conda run -n ${env_name} pip install evaluate
