@@ -283,7 +283,7 @@ for dataType, roiType, sbj in itt.product(dataTypes,roiTypes,sbjs):
             res['best_cands_len_all'] = np.array(best_cands_len_all)
             res['bestSubRepIdx'] = np.array(bestSubRepIdx.cpu().detach())
             res['videoidx'] = videoidx+1
-            res['scores_best'] = np.array(scores_all.cpu().detach())
+            res['scores_best'] = np.array(scores_best.cpu().detach())
             res['bestrefidx'] = np.array(bestrefidx.cpu().detach())
 
             if save_log and dele == 0:
