@@ -1,4 +1,1 @@
-# Supplementary video
-- Supplementary Video 1. Examples of evolved descriptions of viewed content during the optimization process. The video shows the iterative optimization process for generated descriptions of viewed content (100 optimization steps). These descriptions were generated using features from all 24 layers of the DeBERTa-large model, decoded from whole-brain activity.
-- Supplementary Video 2. Examples of generated descriptions of viewed content for all subjects. These descriptions were generated using features from all 24 layers of the DeBERTa-large model, decoded from whole-brain activity. The text color indicates precision-based accuracy (IDF-weighted BERTScore-P).
-- Supplementary Video 3. Examples of generated descriptions of recalled content for all subjects. These descriptions were generated using features from all 24 layers of the DeBERTa-large model, decoded from whole-brain activity. The text color indicates precision-based accuracy (IDF-weighted BERTScore-P).
+
